@@ -1,0 +1,25 @@
+.kpis-cont{
+    padding: 20px;
+}
+.kpis-all-containers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.each-kpi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    margin: 10px;
+    width: 315px;
+    font-family:'Roboto';
+    box-shadow: -15px -15px 15px rgba(186, 184, 184, 0.2),
+    15px 15px 15px rgba(91, 90, 90, 0.1);
+}
+.each-kpi p{
+    font-size: 30px;
+    font-weight: bold;
+}

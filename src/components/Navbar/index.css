@@ -1,0 +1,45 @@
+.navbar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.navbar-btns-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    background-color:#fff;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+.each-navlink-btn{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    margin-top: 5px;
+}
+.each-navlink-btn i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.each-navlink-btn span{
+    font-size: 18px;
+}
+.activenavbar{
+    background-color: red;
+}
+.company-name{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+}

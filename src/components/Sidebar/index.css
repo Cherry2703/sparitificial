@@ -1,0 +1,85 @@
+
+
+
+@media screen and (max-width:480px){
+    .mini-screen{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(220, 207, 191);
+        height: 100vh;
+        width: 100%;
+    }
+    .tab-screen{
+        display: none;
+    }
+    .large-screen{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .mini-screen{
+        display: none;
+    }
+    .tab-screen{
+        display: block;
+        background-color: rgb(76, 231, 231);
+        width: 100%;
+        height: 100vh;
+    }
+    .large-screen{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .mini-screen{
+        display: none;
+    }
+    .tab-screen{
+        display: none;
+    }
+    .large-screen{
+        display: block;
+        background-color: rgb(180, 229, 135);
+        height: 100vh;
+    }   
+    .sidebar{
+        width: 200px;
+        background-color: rgb(243, 241, 241);
+        padding: 10px;
+        height: 100vh;
+    }
+    .company-name{
+        font-size: 22px;
+        font-weight: 500;
+        font-family: 'Roboto';
+        text-align: center;
+
+    }
+    .each-nav-link-li{
+        margin-top: 10px;
+    }
+    hr{
+        margin-top: 10px;
+        background-color: #000;
+    }
+    .each-nav-link-li .link-sidebar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        text-decoration: none;
+    }
+    .each-nav-link-li .link-sidebar button{
+        background-color: transparent;
+        border: none;
+    }
+    .each-nav-link-li .link-sidebar i{
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: 4px;
+    }
+}
